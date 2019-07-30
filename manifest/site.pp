@@ -1,4 +1,5 @@
 file {'/root/README':
-  ensure => file,
+  ensure => present,
+  mode => 0644,
   content => 'This is a README',
 }
